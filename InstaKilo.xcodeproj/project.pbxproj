@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70A3FA91BA0FE27009A8563 /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A3FA81BA0FE27009A8563 /* HeaderCollectionReusableView.m */; settings = {ASSET_TAGS = (); }; };
 		C7F333001BA0C42600D80F7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F332FF1BA0C42600D80F7C /* main.m */; };
 		C7F333031BA0C42600D80F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F333021BA0C42600D80F7C /* AppDelegate.m */; };
 		C7F333061BA0C42600D80F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F333051BA0C42600D80F7C /* ViewController.m */; };
 		C7F333091BA0C42600D80F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F333071BA0C42600D80F7C /* Main.storyboard */; };
 		C7F3330B1BA0C42600D80F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F3330A1BA0C42600D80F7C /* Assets.xcassets */; };
 		C7F3330E1BA0C42600D80F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F3330C1BA0C42600D80F7C /* LaunchScreen.storyboard */; };
+		C7F333171BA0CA3300D80F7C /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F333161BA0CA3300D80F7C /* PhotoCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		C7F3331A1BA0D4DB00D80F7C /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F333191BA0D4DB00D80F7C /* Photo.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C70A3FA71BA0FE27009A8563 /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		C70A3FA81BA0FE27009A8563 /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 		C7F332FB1BA0C42600D80F7C /* InstaKilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaKilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F332FF1BA0C42600D80F7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7F333011BA0C42600D80F7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		C7F3330A1BA0C42600D80F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7F3330D1BA0C42600D80F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7F3330F1BA0C42600D80F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F333151BA0CA3300D80F7C /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		C7F333161BA0CA3300D80F7C /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		C7F333181BA0D4DB00D80F7C /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		C7F333191BA0D4DB00D80F7C /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				C7F333011BA0C42600D80F7C /* AppDelegate.h */,
 				C7F333021BA0C42600D80F7C /* AppDelegate.m */,
+				C7F333181BA0D4DB00D80F7C /* Photo.h */,
+				C7F333191BA0D4DB00D80F7C /* Photo.m */,
 				C7F333041BA0C42600D80F7C /* ViewController.h */,
 				C7F333051BA0C42600D80F7C /* ViewController.m */,
+				C7F333151BA0CA3300D80F7C /* PhotoCollectionViewCell.h */,
+				C7F333161BA0CA3300D80F7C /* PhotoCollectionViewCell.m */,
+				C70A3FA71BA0FE27009A8563 /* HeaderCollectionReusableView.h */,
+				C70A3FA81BA0FE27009A8563 /* HeaderCollectionReusableView.m */,
 				C7F333071BA0C42600D80F7C /* Main.storyboard */,
 				C7F3330A1BA0C42600D80F7C /* Assets.xcassets */,
 				C7F3330C1BA0C42600D80F7C /* LaunchScreen.storyboard */,
@@ -149,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70A3FA91BA0FE27009A8563 /* HeaderCollectionReusableView.m in Sources */,
 				C7F333061BA0C42600D80F7C /* ViewController.m in Sources */,
+				C7F333171BA0CA3300D80F7C /* PhotoCollectionViewCell.m in Sources */,
 				C7F333031BA0C42600D80F7C /* AppDelegate.m in Sources */,
+				C7F3331A1BA0D4DB00D80F7C /* Photo.m in Sources */,
 				C7F333001BA0C42600D80F7C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +316,7 @@
 				C7F333141BA0C42600D80F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
